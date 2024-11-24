@@ -5,7 +5,8 @@ from datetime import datetime
 
 # Constants
 API_KEY = "758c2e749d7f42ff838022c0adea1470"  # Replace with your BLS API key
-SERIES_IDS = ["CEU0000000001", "LNS14000000"]  # Non-farm workers, unemployment rate
+SERIES_IDS = ["CEU0000000001", "LNS14000000","LNS11300000","LNS12300000","LNS12032194"]
+# Non-farm workers, unemployment rate,Labor Force Participation Rate,Civilian Employment-Population Ratio,Part-Time for Economic Reasons
 START_YEAR = "2022"
 END_YEAR = str(datetime.now().year)
 
